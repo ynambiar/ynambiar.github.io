@@ -1,1 +1,1 @@
-# ynambiar.io
+# ynambiar.github.io
