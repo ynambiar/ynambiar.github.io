@@ -2,17 +2,17 @@
  * Author: Carlos Alvarez
  * URL: http://alvarez.is
  *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Project Name: YAMINI NAMBIAR - Life Is Good
  * Version: 1.0
  * URL: http://blacktie.co
  */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:500,900);
 
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     color: #555;
 
@@ -22,7 +22,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: #333;
 }
@@ -39,7 +39,9 @@ h1 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
+    color:#333;
 }
 
 .centered {
@@ -86,31 +88,37 @@ a:after {
 
 .navbar {
 	text-transform: uppercase;
-	margin-bottom: 0px;
+  text-align: center;
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 350px;
+	padding-top: 350px;
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+  background-image: url("../img/bkg.png");
+	border-color: white;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+  color: white;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-top: 15px;
 }
 
 .navbar-brand {
 	font-weight: 700;
-	font-size: 20px;
-	letter-spacing: 2px;
+	font-size: 80px;
+	letter-spacing: 4px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -121,8 +129,35 @@ a:after {
 	border-color: transparent;
 }
 
+/* navbar for other pages*/
+.navbar-inverse-2 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.navbar-inverse-2 {
+  background-image: url("../img/bkg.png");
+	border-color: white;
+}
+
+.navbar-inverse-2 .navbar-nav > li > a {
+	color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.navbar-inverse-2 .navbar-nav > li > a:hover {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.navbar-inverse-2 .navbar-brand {
+	color: white;
+}
+
 .progress-bar-theme {
-  background-color: #1abc9c;
+  background-color: white;
 }
 
 
@@ -150,8 +185,8 @@ a:after {
 
 #footer {
 	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #footer p {
@@ -161,7 +196,7 @@ a:after {
 #footer h4 {
 	color: white;
 	text-transform: uppercase;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 
@@ -208,10 +243,10 @@ bt {
 
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
+.zoom {
+    display:block;
+    position:relative;
+    overflow:hidden;
     background:transparent url(../img/loader.gif) no-repeat center;
 }
 
