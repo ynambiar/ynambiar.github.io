@@ -1,1 +1,0 @@
-# ynambiar.github.io
