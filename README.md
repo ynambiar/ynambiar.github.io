@@ -3,7 +3,7 @@
 1. Go to http://localhost:8000/index.html
 
 ## Deploy
-1. The github-pages workflow runs automatically after each commit.
+1. The github-pages workflow runs automatically after each commit to `main`.
 
 ## Domain
 The yamininambiar.com domain is registered with CloudFlare.
